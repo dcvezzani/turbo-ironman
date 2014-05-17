@@ -28,7 +28,8 @@ public class DaoTest {
 			String userHome = System.getProperty("user.home");
 			File f = new File(userHome + "/.m2/repository/org/test");
 			boolean localArtifactWasInstalled = (f.isDirectory());
-			assertFalse("Articles for the org.test namespace shouldn't have been installed", localArtifactWasInstalled);
+			assertFalse("Articles for the org.test namespace shouldn't " +
+					"have been installed", localArtifactWasInstalled);
 
 		} catch (Exception e) {
 			e.printStackTrace();

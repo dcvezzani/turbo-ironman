@@ -7,6 +7,10 @@
   <name>my.project</name>
   <description>my.project</description>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -22,7 +26,7 @@
         <version>1.9.5</version>
         <scope>test</scope>
       </dependency>
-    
+
     </dependencies>
   </dependencyManagement>
 
@@ -61,4 +65,3 @@
   <module>dao-mp</module>
   </modules>
 </project>
-

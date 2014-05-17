@@ -10,7 +10,7 @@
   <artifactId>dao-mp</artifactId>
   <name>dao-mp</name>
   <description>dao-mp</description>
- 
+
   <dependencies>
     <dependency>
       <groupId>org.test</groupId>
@@ -21,10 +21,9 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
       <scope>test</scope>
     </dependency>
-  
+
   </dependencies>
 
 </project>
